@@ -5,3 +5,4 @@ Bright Chimwaza - Full Stack Developer (Civil Engineering → Web Dev)
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
 | Responsive Navbar | Mobile-first nav with hamburger menu | HTML, CSS, Vanilla JS |
+|Responsive search menu| Mobile-first menu Bar|HTMLS, CSS, Vanilla JS|
