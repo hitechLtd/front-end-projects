@@ -1,0 +1,73 @@
+body {
+    background-color: rosybrown;
+}
+.business-card {
+    max-width: 300px;
+    background-color: mistyrose;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgab(0,0,0,0.2);
+}
+h1,h2, p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.link-container {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+img {
+  display: block;
+  margin: 20px auto;
+  width:120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    color:white;
+    border: none;
+    background-color: #04AA6D;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.btn:hover {
+    color:black;
+    border: 2px solid orange;
+}
+@media print {
+    body {
+        background-color: white;
+    }
+
+    .business-card {
+        box-shadow: none;
+        border: 1px solid black;
+    }
+
+    .btn,
+    .download-btn {
+        display: none;
+    }
+}
+.download-btn {
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: steelblue;
+    color:white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.download-btn:hover {
+    background-color: navy;
+}
