@@ -9,6 +9,8 @@ A digital business card built with HTML and CSS.
 - JavaScript
 - GIT
 - GitHub
+### [Simple Todo App](./Todo-list/)
+A simple static todo app 
 
 # Author
 **Bright Chimwaza**
