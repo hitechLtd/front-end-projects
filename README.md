@@ -14,7 +14,7 @@ A digital business card built with HTML and CSS.
  ### [Simple Todo App](./Todo-list/)
 A simple static todo app 
 
-### [Parents Teacher Conference Form](./parent-teacher-conference%20page/)
+### [Parents Teacher Conference Form](./parent-teacher-conference-page/)
 A simple form but worth of practising
 # Author
 **Bright Chimwaza**
