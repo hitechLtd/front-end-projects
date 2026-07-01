@@ -15,6 +15,11 @@ A digital business card built with HTML and CSS.
 A simple static todo app 
 
 ### [Parents Teacher Conference Form](./parent-teacher-conference-page/)
-A simple form but worth of practising
+A simple form but worth of practising 
+
+### [Birthday Wish Card](./greeting-card/)
+A simple birthday card but an interesting one with cool animations
+
+
 # Author
 **Bright Chimwaza**
