@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Application Fomr</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="">
+             <h1 class="title">Job Application Form</h1>
+            <label for="name">Full Name: </label>
+            <input type="text" 
+             id="name" 
+             name="full-name"
+             placeholder="Enter Your name"
+             >
+            <label for="email">Email: </label>
+            <input type="email"
+             id="email"
+            name="email"
+            placeholder="Enter your email"
+            >
+            <label for="position">Position:</label>
+            <select name="position id="position">
+                <option value="select position" disabled selected>select position</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="manager">Manager</option>
+                <option value="full-stack-developer">Full Stack Developer</option>
+            </select>
+            <fieldset class="radio-group">
+                <legend>Availability</legend>
+                <label for="full-time" class="radio-btn">Full-Time</label>
+                <input 
+                type="radio" 
+                id="full-time"
+                class="radio-preference"
+                name="availability">
+                <label for="part-time" class="radio-btn">Part-Time</label>
+                <input
+                 type="radio"
+                 id="part-time" 
+                 class="radio-preference" 
+                 name="availability">
+            </fieldset>
+            <label for="message">Why do you want this job?</label>
+            <textarea name="explaination" id="message" placeholder="Write your motivation" rows="4" cols="50"></textarea>
+            <button type="submit">Submit Your Application</button>
+            </form>
+        </div>
+    </body>
+</html>
